@@ -1,0 +1,10 @@
+python eval_ssd_network.py \
+    --eval_dir=./log/eval \
+    --dataset_dir=./tfrecords \
+    --dataset_name=pascalvoc_2007 \
+    --dataset_split_name=test \
+    --model_name=ssd_300_vgg \
+    --checkpoint_path=./checkpoints/ssd_300_vgg.ckpt \
+    --wait_for_checkpoints=True \
+    --batch_size=1 \
+    --max_num_batches=500

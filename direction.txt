@@ -1,0 +1,2 @@
+python train.py --train_dir=voc/train_dir/ --pipeline_config_path=voc/ssd_mobilenet_v1_coco.config
+python train.py --train_dir=voc/train_faster/ --pipeline_config_path=voc/faster_rcnn_inception_v2_coco.config
