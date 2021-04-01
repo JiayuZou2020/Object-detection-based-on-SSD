@@ -1,5 +1,5 @@
 # SSD: Single Shot MultiBox Detector in TensorFlow
-
+This project is mainly based on SSD, which is a presentative single stage method for object detection. In order to impove the preformance of SSD, we can use GIOU, DIOU and CIOU as well as focal loss to deal with the shortage of the original algorithm. 
 SSD is an unified framework for object detection with a single network. It has been originally introduced in this research [article](http://arxiv.org/abs/1512.02325).
 
 This repository contains a TensorFlow re-implementation of the original [Caffe code](https://github.com/weiliu89/caffe/tree/ssd). At present, it only implements VGG-based SSD networks (with 300 and 512 inputs), but the architecture of the project is modular, and should make easy the implementation and training of other SSD variants (ResNet or Inception based for instance). Present TF checkpoints have been directly converted from SSD Caffe models.
